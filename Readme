@@ -1,0 +1,10 @@
+                                Web3 Application Overview
+
+This application allows users to manage titles through a React frontend integrated with MetaMask. After logging in, users can connect their Ethereum wallet, view their wallet address and balance, and manage titles (add, edit, delete).
+
+Steps to Run:
+Start the Server: Run the backend to handle user authentication via JWT. Login is required to access other features.
+Run the Frontend: Use React to launch the Web3 frontend. Connect your MetaMask wallet to fetch your wallet ID and balance.
+Authentication: Log in to get a JWT token, which is needed to access title management features.
+Connect Wallet: Once authenticated, connect your MetaMask wallet to retrieve your Ethereum ID and balance.
+Manage Titles: After connecting the wallet, users can add, edit, or delete titles within the application.
